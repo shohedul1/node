@@ -26,6 +26,6 @@ const server = http.createServer((req,res)=>{
    }
 });
 
-server.listen(PORT,portName,()=>{
-    console.log(`server is running http://${portName}:${PORT}`)
-})
+server.listen(PORT,()=>{
+    console.log(`server is running ${PORT}`)
+});
